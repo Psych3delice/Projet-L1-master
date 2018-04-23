@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<!DOCTYPE exemple SYSTEM "definition.dtd">
+
+<carte>
+	<nom></nom>
+	<categorie>
+		<cat></cat>
+		<plats></plats>
+		<illu></illu>
+	</categorie>
+	<categorie>
+		<cat></cat>
+		<plats></plats>
+		<illu></illu>
+		<indispo></indispo>
+		</categorie>
+	<categorie>
+		<cat></cat>
+		<plats></plats>
+		<illu></illu>
+	</categorie>
+	<contact>
+		<logo></logo>
+		<adresse></adresse>
+	</contact>
+</carte>

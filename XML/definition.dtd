@@ -1,0 +1,11 @@
+<!ELEMENT carte (nom,categories*,contact)>
+	<!ELEMENT nom (#PCDATA)>
+	<!ELEMENT categories (cat*, plats, illu, indispo?)>
+		<!ELEMENT cat (plats*, illu)>
+			<!ELEMENT plats (#PCDATA)>
+			<!ATTLIST plats type CDATA #IMPLIED>
+			<!ELEMENT illu (#PCDATA) >
+		<!ELEMENT indispo (#PCDATA)>
+	<!ELEMENT contact (logo?, adresse)>
+		<!ELEMENT logo (#PCDATA)>
+		<!ELEMENT adresse (#PCDATA)>

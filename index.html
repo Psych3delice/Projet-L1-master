@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE html SYSTEM "XML/definition.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<title>KISEJUU SUSHIS</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="Javascript/script.js"></script>
+	<link rel="stylesheet" href="Styles/sansushi.css" media="all"/>
+	<link rel="stylesheet" type="text/css" href="Styles/style_menu.css" />
+</head>
+
+<body onload="init();">
+	<h1>Kiseijuu Sushis</h1>
+	<nav>
+		<ul id="menu">
+			<li>
+				<a href="index.html">Accueil</a>
+			</li>
+			<li> <a href="#">Informations</a>
+				<ul>
+					<li>
+						<a href="Content/carte.html">Carte</a>
+					</li>
+					<li>
+						<a href='Content/location.html'>Adresse</a>
+					</li>
+					<li>
+						<a href="Content/Miscellaneous/table.html">Plan du site et autres informations</a>
+					</li>
+				</ul>
+			</li>
+			<li> 
+				<a href="#">Nous Rejoindre</a>
+				<ul>
+					<li>
+						<a id="mailto" href="mailto:m.lemainque@gmail.com" onclick="captcha();">Contact</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Mentions Légales</a>
+				<ul>
+					<li>
+						<a href="Content/Miscellaneous/mentions.html">Termes</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+<div class='page'>
+	<!-- Informations sur le navigateur -->
+	<input type="button" onclick="infos_nav();" value="Informations sur le navigateur"><br/><br/>
+
+	<!-- Substitution d'image -->
+	<img src="Images/logo_kiseijuu.png" id="img1" width="300px" onclick="imgSwitch();" alt="Image introuvable" title="Cliquez sur l'image" />
+	<input type="hidden" src="Images/back_img2.jpg" id="img2" width="300px" />
+</div>
+</body>
+</html>
